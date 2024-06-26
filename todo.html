@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+       }
+        body {
+            background-color: rgb(3, 13, 13);
+            width: 100vw;
+            height: 100vh;
+            color: white;
+
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Todo</h1>
+    <section class="container">
+        <div class="form">
+            <form action="" class="form">
+                <input type="text" name="todo" id="todo">
+                <input type="button" name="save" value="submit">
+            </form>
+        </div>
+        <div class="todo__container">
+                <ol class="todo_list">
+                    <li class="todo">
+                        <p>wash dishes</p>
+                        <button class="edit">edit</button>
+                        <button class="complete">complete</button>
+                        <button class="delete">delete</button>
+                    </li>
+                    <li class="todo">
+                        <p>wash dishes</p>
+                        <button class="edit">edit</button>
+                        <button class="complete">complete</button>
+                        <button class="delete">delete</button>
+                    </li>
+                </ol>
+        </div>
+    </section>
+
+</body>
+
+</html>
